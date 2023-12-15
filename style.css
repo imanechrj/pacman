@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: black;
+}
+
+body>div{
+    margin: 120px auto;
+    text-align: center;
+}
+
+.tile{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wall{
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.coin{
+    background-color: yellow;
+    border-radius: 50%;
+    transform: scale(0.3);
+}
+
+.pacman{
+    background-image: url(img/pacman4/pacman-right.png);
+}
+
+.right{
+    background-image: url(img/pacman4/pacman-right.png);
+}
+
+.left{
+    background-image:url(img/pacman4/pacman-left.png);
+}
+
+.up{
+    background-image:url(img/pacman4/pacman-up.png);
+}
+
+.down{
+    background-image: url(img/pacman4/pacman-down.png);
+}
+
+.counter{
+    display: block;
+    height: 130px;
+    width: 300px;
+    background-color: aliceblue;
+    font-size: 60px;
+}
+
+.ghost1{
+    background-image: url(img/ghosts/blinky.png);
+}
+
+.ghost2{
+    background-image: url(img/ghosts/inky.png);
+}
+
+.ghost3{
+    background-image: url(img/ghosts/clyde.png);
+}
+
+.ghost4{
+    background-image: url(img/ghosts/pinky.png);
+}
